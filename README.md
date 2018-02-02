@@ -11,3 +11,17 @@ Basic settings, in file ./components/Pipertable.js set:
 @separator - the seperator character
 
 @separatorregex - the seperator character escaped for regex use (if escaping required)
+
+
+
+Using create-react-app
+to run locally clone >> cd pipertable >> npm install >> npm start
+
+
+Online sample:
+Run - https://pipertable.stackblitz.io/
+
+Code edit - https://stackblitz.com/edit/pipertable
+
+ 
+ 
