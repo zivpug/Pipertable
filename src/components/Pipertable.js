@@ -14,13 +14,17 @@ import './pipertable.css';
  * */
 export default class Pipertable extends React.Component {
 
+	// Basic settings:
+
 	// Set cell names - change array data to your table headers
 	headers = ['first name', 'last_name', 'address', 'cell_4', 'dog_name'];
-
 	// Set the separator character
 	separator = '|';
 	// Set the separator character to be used in regex. Helps if needs to be escaped like with a Pipe
 	separatorregex = "\\|";
+
+
+
 
 	// Init component's state
 	state = {
