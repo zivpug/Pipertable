@@ -18,7 +18,10 @@ Basic settings, in file ./components/Pipertable.js set:
 
 
 Using create-react-app
-to run locally clone >> cd pipertable >> npm install >> npm start
+
+to run locally:
+ 
+clone >> cd pipertable >> npm install >> npm start
 
 
 Online sample:
