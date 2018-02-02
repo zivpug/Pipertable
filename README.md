@@ -7,9 +7,9 @@ It's A textarea with table cell awareness. Originally developed for FAST data ed
 
 Component can be used for for smart and lightining fast tabular data editing (it's original purpose) or CSV to JSON editing.
 
++++++++++++++++++++++++++++++++++++++++++
 
 ![Pipertable in action](https://user-images.githubusercontent.com/5362593/35754896-cca8d8c0-086d-11e8-9195-fd783781152c.png "")
-
 
 +++++++++++++++++++++++++++++++++++++++++
 
