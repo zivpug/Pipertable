@@ -1,0 +1,20 @@
+
+/* Alternating lines textarea background from : https://codepen.io/green-plastic/pen/thkDg */
+.pipertext {
+    width:90%;
+    height: 400px;
+    border: 1px solid mediumpurple;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+    background-image: linear-gradient(#F1F1F1 50%, #F9F9F9 50%);
+    background-size: 100% 4rem;
+    margin: 0 auto;
+    padding: 4px 8px;
+
+}
+
+.selected {
+    color: #ffffff;
+    background: mediumpurple;
+}

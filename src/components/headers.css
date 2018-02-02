@@ -1,0 +1,19 @@
+.headerbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.headerbox li {
+    padding: 0 5px;
+}
+
+.headers li {
+    color: mediumpurple;
+}
+
+.selectedHeader {
+    background: mediumpurple;
+    color: #ffffff;
+}

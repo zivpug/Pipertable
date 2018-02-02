@@ -1,0 +1,32 @@
+body {
+    font: normal 1.3rem sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-title {
+    background: mediumpurple;
+    color:#ffffff;
+}
+
+.App-container {
+    display: block;
+}
+
+.App-left {
+    width: 60%;
+    float: left;
+}
+
+.App-right {
+    font-size: 0.9rem;
+    width: 36%;
+    padding: 2%;
+    text-align: left;
+    float: right;
+}
