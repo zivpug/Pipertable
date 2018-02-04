@@ -2,7 +2,7 @@ Pipertable - Contextual textarea
 
 v.0.8
 
-A code sample for a React component for a contextual textarea - used to edit CSV or quick edit any relational table.
+A code sample for a contextual textarea ReactJs component- used to edit CSV or quick edit any relational table.
 It's A textarea with table cell awareness. Originally developed for FAST data editing, to replace the SLOW separate form fields approach.
 
 Component can be used for for smart and lightining fast tabular data editing (it's original purpose) or CSV to JSON editing.
