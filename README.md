@@ -22,6 +22,7 @@ Basic settings, in file ./components/Pipertable.js set:
 
 @separatorregex - the seperator character escaped for regex use (if escaping required)
 
++++++++++++++++++++++++++++++++++++++++++
 
 to run locally:
  
