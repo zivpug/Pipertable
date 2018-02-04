@@ -31,6 +31,10 @@ export default class Tableheader extends React.Component {
 					<ul className={'headerbox'}>
 						{headers}
 					</ul>
+
+					{/* Alert the user if there are more cells then headers */}
+					{this.props.cell > this.props.headers.length-1 &&
+						<div className='error'>Too many cells</div> }
 				</h4>
 		);
 	}

@@ -17,3 +17,8 @@
     background: mediumpurple;
     color: #ffffff;
 }
+
+.error {
+    font-size:0.6em;
+    color:red;
+}

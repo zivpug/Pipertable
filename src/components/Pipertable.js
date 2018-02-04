@@ -24,7 +24,7 @@ export default class Pipertable extends React.Component {
 	separatorregex = "\\|";
 
 
-
+	placeholder = this.headers.join(this.separator);
 
 	// Init component's state
 	state = {
@@ -123,6 +123,7 @@ export default class Pipertable extends React.Component {
 				{/* Textarea - main part of this controller */}
 				<textarea
 					className={'pipertext'}
+					placeholder={this.placeholder}
 					id="pipertable"
 					name="pipertable"
 					value={this.state.value}
