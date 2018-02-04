@@ -10,8 +10,10 @@ body {
 }
 
 .App-title {
+    text-align: left;
     background: mediumpurple;
     color:#ffffff;
+    padding-left: 20px;
 }
 
 .App-container {

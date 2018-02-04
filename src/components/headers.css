@@ -1,16 +1,18 @@
 .headerbox {
+    align-items: left;
     display: flex;
-    align-items: center;
-    width: 100%;
     list-style: none;
+    text-decoration: underline;
+    text-transform: capitalize;
+    width: 100%;
 }
 
 .headerbox li {
     padding: 0 5px;
 }
 
-.headers li {
-    color: mediumpurple;
+.header {
+    color: #7f7f7f;
 }
 
 .selectedHeader {
@@ -19,6 +21,6 @@
 }
 
 .error {
-    font-size:0.6em;
     color:red;
+    font-size:0.6em;
 }

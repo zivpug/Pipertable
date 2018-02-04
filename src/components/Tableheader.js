@@ -21,13 +21,13 @@ export default class Tableheader extends React.Component {
 		let headers = this.props.headers.map(function (header, index) {
 			return (
 				<li key={index}
-				    className={(index === cell) ? 'selectedHeader' : ''}
+				    className={(index === cell) ? 'selectedHeader' : 'header'}
 				>{header}</li>
 			);
 		});
 
 		return (
-				<h4>
+				<div>
 					<ul className={'headerbox'}>
 						{headers}
 					</ul>
@@ -35,7 +35,7 @@ export default class Tableheader extends React.Component {
 					{/* Alert the user if there are more cells then headers */}
 					{this.props.cell > this.props.headers.length-1 &&
 						<div className='error'>Too many cells</div> }
-				</h4>
+				</div>
 		);
 	}
 };

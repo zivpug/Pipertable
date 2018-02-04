@@ -17,13 +17,13 @@ export default class Pipertable extends React.Component {
 	// Basic settings:
 
 	// Set cell names - change array data to your table headers
-	headers = ['first name', 'last_name', 'address', 'cell_4', 'dog_name'];
+	headers = ['first name', 'last name', 'address', 'dog name', 'test cell'];
 	// Set the separator character
 	separator = '|';
 	// Set the separator character to be used in regex. Helps if needs to be escaped like with a Pipe
 	separatorregex = "\\|";
 
-
+	// create placeholder string from the headers, for the textarea
 	placeholder = this.headers.join(this.separator);
 
 	// Init component's state
@@ -130,6 +130,7 @@ export default class Pipertable extends React.Component {
 					onKeyUp={this.checkKeys}
 					onChange={this.handleChange}
 					onClick={this.handleChange}></textarea>
+
 			</form>
 
 		);

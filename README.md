@@ -9,7 +9,7 @@ Component can be used for for smart and lightining fast tabular data editing (it
 
 +++++++++++++++++++++++++++++++++++++++++
 
-![Pipertable in action](https://user-images.githubusercontent.com/5362593/35754896-cca8d8c0-086d-11e8-9195-fd783781152c.png "")
+![Pipertable in action](https://user-images.githubusercontent.com/5362593/35781798-7819b370-09f7-11e8-89f1-c202e04a1f6e.png "")
 
 +++++++++++++++++++++++++++++++++++++++++
 
