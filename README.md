@@ -7,6 +7,8 @@ It's A textarea with table cell awareness. Originally developed for FAST data ed
 
 Component can be used for for smart and lightining fast tabular data editing (it's original purpose) or CSV to JSON editing.
 
+More info: http://ziv-p.com/blog/2018/02/04/pipertable-a-contextual-textarea/
+
 +++++++++++++++++++++++++++++++++++++++++
 
 ![Pipertable in action](https://user-images.githubusercontent.com/5362593/35781798-7819b370-09f7-11e8-89f1-c202e04a1f6e.png "")
@@ -38,4 +40,4 @@ Run - https://pipertable.stackblitz.io/
 Code edit - https://stackblitz.com/edit/pipertable
 
  
- 
+ More info at the blog post: http://ziv-p.com/blog/2018/02/04/pipertable-a-contextual-textarea/
