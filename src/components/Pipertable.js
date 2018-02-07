@@ -15,6 +15,17 @@ import './pipertable.css';
 export default class Pipertable extends React.Component {
 
 	// Basic settings:
+	constructor() {
+		super();
+		// Init component's state
+		this.state = {
+			value: '',
+			prepped: '',
+			lines: 0,
+			cell: 0,
+			cellname: ''
+		};
+	};
 
 	// Set cell names - change array data to your table headers
 	headers = ['first name', 'last name', 'address', 'dog name', 'test cell'];
@@ -26,21 +37,12 @@ export default class Pipertable extends React.Component {
 	// create placeholder string from the headers, for the textarea
 	placeholder = this.headers.join(this.separator);
 
-	// Init component's state
-	state = {
-		value: '',
-		prepped: '',
-		lines: 0,
-		cell: 0,
-		cellname: ''
-	};
-
 	/** Get cursor location from textarea
 	 * and calc the cell number by this location
 	 * @param {Object} e - the event from the textarea
 	 * @returns Cell index {NUmber}
 	 */
-	getCell = function (e) {
+	getCell(e) {
 		// Get cursor position using the 'selectionStart' property
 		let pos = e.target.selectionStart;
 		// Get full text
@@ -130,9 +132,7 @@ export default class Pipertable extends React.Component {
 					onKeyUp={this.checkKeys}
 					onChange={this.handleChange}
 					onClick={this.handleChange}></textarea>
-
 			</form>
-
 		);
 	}
 };

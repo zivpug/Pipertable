@@ -13,18 +13,15 @@ import './headers.css';
  *
  * */
 export default class Tableheader extends React.Component {
-
 	render() {
-		let cell = this.props.cell;
+		let cell = this.props.cell || 0;
 		// Create the headers LI list by iterating through the headers array
 		// @returns {Array} with headers as <LI> objects
-		let headers = this.props.headers.map(function (header, index) {
-			return (
+		let headers = this.props.headers.map((header, index) => (
 				<li key={index}
 				    className={(index === cell) ? 'selectedHeader' : 'header'}
 				>{header}</li>
-			);
-		});
+		));
 
 		return (
 				<div>

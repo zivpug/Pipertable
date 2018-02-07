@@ -24,6 +24,8 @@ class App extends Component {
 		data: ''
 	};
 
+	// Call back function to Set the table data in component state, to be used in display
+	// @param {Object} data (table's JSON data recived from the main component)
 	handleTableData(data) {
 		this.setState({data: data});
 	};
